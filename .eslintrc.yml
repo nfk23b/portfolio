@@ -1,0 +1,17 @@
+plugins:
+    - prettier
+    - material-ui
+extends:
+    - eslint:recommended
+    - plugin:prettier/recommended
+    - standard
+    - standard-react
+env:
+    commonjs: true
+    es6: true
+    es2020: true
+    node: true
+    browser: true
+rules:
+    prettier/prettier: error
+parserOptions: { "sourceType": "module", ecmaVersion: 2018 }
