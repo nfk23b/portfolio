@@ -8,9 +8,9 @@ import {
     GridListTile,
 } from "@material-ui/core";
 import classNames from "classnames";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import overlay1 from "../../assets/img/overlay1.png";
-import bg from "../../assets/img/header.jpg";
+import bg from "../../assets/img/karthik-swarnkar-AoNvwL-Dmtw-unsplash.jpg";
 import {
     JsIcon,
     ReactIcon,
@@ -301,10 +301,10 @@ const Technologies = () => {
                             </Typography>
                         </Box>
                         <Typography className={classes.text}>
-                            {t("technologies.text1")}
+                            <Trans i18nKey="technologies.text1"></Trans>
                         </Typography>
                         <Typography className={classes.text}>
-                            {t("technologies.text2")}
+                            <Trans i18nKey="technologies.text2"></Trans>
                         </Typography>
                     </Box>
                 </Box>

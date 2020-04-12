@@ -2,7 +2,9 @@ import React from "react";
 import { makeStyles, Grid } from "@material-ui/core";
 import { Box, Typography, Button } from "@material-ui/core";
 import { useTranslation } from "react-i18next";
-import pic from "../../assets/img/pic02.jpg";
+import rnm from "../../assets/img/RnMdb.JPG";
+import movies from "../../assets/img/movies.jpg";
+import lehair from "../../assets/img/lehair.JPG";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -57,8 +59,14 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     gridItem: {
+        position: "relative",
+        display: "flex",
+        flexDirection: "column",
+        [theme.breakpoints.up("sm")]: {
+            marginBottom: "5em",
+        },
         [theme.breakpoints.up("lg")]: {
-            margin: "0 1.5em",
+            margin: "0 1.5em 3em",
         },
     },
     gridItemImg: {
@@ -89,7 +97,12 @@ const useStyles = makeStyles((theme) => ({
     buttonsWrapper: {
         marginBottom: "2em",
         [theme.breakpoints.up("sm")]: {
+            marginTop: "2em",
+            marginBottom: 0,
             display: "flex",
+            position: "absolute",
+            bottom: "-3em",
+            width: "100%",
             justifyContent: "center",
         },
     },
@@ -149,29 +162,39 @@ const Work = (props) => {
                 <Grid className={classes.grid}>
                     <Grid item className={classes.gridItem}>
                         <Box className={classes.gridItemImg}>
-                            <img src={pic} alt="pic" />
+                            <a
+                                href="https://nfk23b.github.io/rick-and-morty-db/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img src={rnm} alt="Rick and Morty database" />
+                            </a>
                         </Box>
                         <Typography
                             className={classes.workHeading}
                             variant="h3"
                         >
-                            Magna feugiat lorem
+                            {t("work.rickandmorty.heading")}
                         </Typography>
                         <Typography className={classes.workDescription}>
-                            Adipiscing a commodo ante nunc magna lorem et
-                            interdum mi ante nunc lobortis non amet vis sed
-                            volutpat et nascetur.
+                            {t("work.rickandmorty.text")}
                         </Typography>
                         <Box className={classes.buttonsWrapper}>
                             <Button
                                 variant="outlined"
                                 className={classes.button}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://github.com/nfk23b/rick-and-morty-db"
                             >
                                 {t("work.code")}
                             </Button>
                             <Button
                                 variant="outlined"
                                 className={classes.button}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://nfk23b.github.io/rick-and-morty-db/"
                             >
                                 {t("work.live")}
                             </Button>
@@ -179,29 +202,39 @@ const Work = (props) => {
                     </Grid>
                     <Grid item className={classes.gridItem}>
                         <Box className={classes.gridItemImg}>
-                            <img src={pic} alt="pic" />
+                            <a
+                                href="https://nfk23b.github.io/react-movies-db/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img src={movies} alt="Movies database" />
+                            </a>
                         </Box>
                         <Typography
                             className={classes.workHeading}
                             variant="h3"
                         >
-                            Magna feugiat lorem
+                            {t("work.movies.heading")}
                         </Typography>
                         <Typography className={classes.workDescription}>
-                            Adipiscing a commodo ante nunc magna lorem et
-                            interdum mi ante nunc lobortis non amet vis sed
-                            volutpat et nascetur.
+                            {t("work.movies.text")}
                         </Typography>
                         <Box className={classes.buttonsWrapper}>
                             <Button
                                 variant="outlined"
                                 className={classes.button}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://github.com/nfk23b/react-movies-db"
                             >
                                 {t("work.code")}
                             </Button>
                             <Button
                                 variant="outlined"
                                 className={classes.button}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://nfk23b.github.io/react-movies-db/"
                             >
                                 {t("work.live")}
                             </Button>
@@ -209,29 +242,39 @@ const Work = (props) => {
                     </Grid>
                     <Grid item className={classes.gridItem}>
                         <Box className={classes.gridItemImg}>
-                            <img src={pic} alt="pic" />
+                            <a
+                                href="https://lorealprofessionnel.ru/lehair"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img src={lehair} alt="LeHair" />
+                            </a>
                         </Box>
                         <Typography
                             className={classes.workHeading}
                             variant="h3"
                         >
-                            Magna feugiat lorem
+                            {t("work.lehair.heading")}
                         </Typography>
                         <Typography className={classes.workDescription}>
-                            Adipiscing a commodo ante nunc magna lorem et
-                            interdum mi ante nunc lobortis non amet vis sed
-                            volutpat et nascetur.
+                            {t("work.lehair.text")}
                         </Typography>
                         <Box className={classes.buttonsWrapper}>
                             <Button
                                 variant="outlined"
                                 className={classes.button}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.figma.com/file/W67AnGVEPudy7mGjlVXhdPRe/88239_LP_Le-HairBronzing"
                             >
-                                {t("work.code")}
+                                {t("work.source")}
                             </Button>
                             <Button
                                 variant="outlined"
                                 className={classes.button}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://lorealprofessionnel.ru/lehair"
                             >
                                 {t("work.live")}
                             </Button>

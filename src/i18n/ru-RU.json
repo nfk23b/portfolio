@@ -1,22 +1,36 @@
 {
     "header": {
-        "heading": "test <br/> <br/>  ",
-        "text": "test",
-        "button": "test"
+        "heading": "<strong>Кирилл Иванов</strong> <br/>Frontend разработчик",
+        "text": "Занимаюсь разработкой SPA и мультистраничных приложений на React",
+        "button": "Подробнее"
     },
     "section1": {
-        "heading": "Lorem ipsum dolor adipiscing amet dolor consequat",
-        "text": "Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan."
+        "heading": "Мои навыки",
+        "text1": "4 года работал фронтенд разработчиком в E-commerce.  Принимал участие в разработке интернет магазинов для таких компаний, как Nespresso, L'oreal, AAG Estate.",
+        "text2": "В ходе работы над различными проектами реализовывал интеграцию с API Яндекс карт посредством REST запросов, занимался кроссбраузерной и адаптивной pixel perfect вёрсткой из psd макетов или figma, работал с ES5 и библиотекой jQuery. В данный момент работаю только с ES6+."
     },
     "technologies": {
-        "heading": "Lorem ipsum dolor adipiscing amet dolor consequat",
-        "text1": "Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.",
-        "text2": "Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore."
+        "heading": "Технологии, которые я использую:",
+        "text1": "Javascript - основной используемый мной язык разработки frontend части приложений. Использую React для быстрого построения фасада сайта любой сложности, Redux, как способ хранения состояния.",
+        "text2": "Работаю с Next.js для разработки мультистраничных сайтов с полноценной поддержкой SEO. Для работы с API предпочитаю использовать Graphql из-за его удобства и простоты. Часто прибегаю к использованию библиотеки material-ui, как средства быстро и легко создавать адаптивные компоненты."
     },
     "work": {
-        "heading": "Adipiscing amet consequat",
-        "text": "Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.",
+        "heading": "Мои работы",
+        "text": "Примеры работ, сделанные с помощью React/Next.js, либо чистом JS с jQuery",
+        "rickandmorty": {
+            "heading": "Rick and Morty Database",
+            "text": "Мультистраничный сайт на Next.js, с использованием Graphql для запросов к API"
+        },
+        "movies": {
+            "heading": "Movies Database",
+            "text": "SPA на React c Redux для сохранения результатов поиска. Для получения данных используются REST запросы"
+        },
+        "lehair": {
+            "heading": "Le Hair landing",
+            "text": "Лэндинг на html/scss/jquery"
+        },
         "code": "code",
+        "source": "source",
         "live": "live"
     }
 }

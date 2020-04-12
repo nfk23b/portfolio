@@ -1,8 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 import { Box, Typography } from "@material-ui/core";
-import { useTranslation } from "react-i18next";
-import img from "../../assets/img/pic01.jpg";
+import { Trans, useTranslation } from "react-i18next";
+import img from "../../assets/img/tyler-franta-iusJ25iYu1c-unsplash.jpg";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -98,7 +98,10 @@ const Section1 = () => {
                         </Typography>
                     </Box>
                     <Typography className={classes.text}>
-                        {t("section1.text")}
+                        <Trans i18nKey="section1.text1"></Trans>
+                    </Typography>
+                    <Typography className={classes.text}>
+                        <Trans i18nKey="section1.text2"></Trans>
                     </Typography>
                 </Box>
                 <Box className={classes.imgBlock}>

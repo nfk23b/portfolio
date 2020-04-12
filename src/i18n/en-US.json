@@ -1,22 +1,36 @@
 {
     "header": {
-        "heading": "Hi, I'm Photon, another fine <br/> little freebie from HTML5 UP.",
-        "text": "Accumsan feugiat mi commodo erat lorem ipsum, sed magna <br/> lobortis feugiat sapien sed etiam volutpat accumsan.",
-        "button": "Discover"
+        "heading": "<strong>Kirill Ivanov</strong> <br/>Frontend developer",
+        "text": "I develop SPA and multi page apps made with React",
+        "button": "More"
     },
     "section1": {
-        "heading": "Lorem ipsum dolor adipiscing amet dolor consequat",
-        "text": "Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan."
+        "heading": "My skills",
+        "text1": "I have 4 years of experience as a front-end developer in E-commerce. I participated in the development of online stores for such companies as Nespresso, L'oreal, AAG Estate.",
+        "text2": "Working on various projects, I implemented integration with Yandex Maps API via REST requests, worked on creating cross-browser and adaptive pixel perfect layouts using psd or figma, and also worked with ES5 and jQuery library.  Currently I only work with ES6+."
     },
     "technologies": {
-        "heading": "Lorem ipsum dolor adipiscing amet dolor consequat",
-        "text1": "Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.",
-        "text2": "Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore."
+        "heading": "Technologies that I use:",
+        "text1": "I mainly use Javascript to develop the front end part of the application. I use React to quickly build a client-side of a website of any complexity and Redux as a way to manage app's state",
+        "text2": "I work with Next.js to develop multi-page websites with full SEO support. Working with the API I prefer to use Graphql because of its convenience and simplicity. I often use the material-ui library as a mean to quickly and easily create adaptive components?"
     },
     "work": {
-        "heading": "Adipiscing amet consequat",
-        "text": "Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.",
+        "heading": "My work",
+        "text": "Examples of work, made with React/Next.js, or vanilla JS with jQuery",
+        "rickandmorty": {
+            "heading": "Rick and Morty Database",
+            "text": "Multi page website made with Next.js, using Graphql for API requests"
+        },
+        "movies": {
+            "heading": "Movies Database",
+            "text": "SPA made with React and Redux to preserve search results. REST requests are used to receive data"
+        },
+        "lehair": {
+            "heading": "Le Hair landing",
+            "text": "Landing page made with html/scss/jquery"
+        },
         "code": "code",
+        "source": "source",
         "live": "live"
     }
 }
