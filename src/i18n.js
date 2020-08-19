@@ -31,7 +31,6 @@ i18n.use(LanguageDetector)
             },
         },
         detection: options,
-        // lng: "en",
         fallbackLng: "en-US",
         keySeparator: ".",
         debug: true,

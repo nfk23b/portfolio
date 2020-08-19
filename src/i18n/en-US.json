@@ -12,7 +12,7 @@
     "technologies": {
         "heading": "Technologies that I use:",
         "text1": "I mainly use Javascript to develop the front end part of the application. I use React to quickly build a client-side of a website of any complexity and Redux as a way to manage app's state",
-        "text2": "I work with Next.js to develop multi-page websites with full SEO support. Working with the API I prefer to use Graphql because of its convenience and simplicity. I often use the material-ui library as a mean to quickly and easily create adaptive components?"
+        "text2": "I work with Next.js to develop multi-page websites with full SEO support. Working with the API I prefer to use Graphql because of its convenience and simplicity. I often use the material-ui library as a mean to quickly and easily create adaptive components."
     },
     "work": {
         "heading": "My work",

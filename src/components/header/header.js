@@ -76,12 +76,6 @@ const useStyles = makeStyles((theme) => ({
         fontSize: "2.6em",
         lineHeight: "1.33em",
         color: theme.palette.common.white,
-        // "& br": {
-        //     display: "none",
-        //     [theme.breakpoints.up("md")]: {
-        //         display: "inline",
-        //     },
-        // },
     },
     subHeading: {
         margin: "1em 0 0 0",
