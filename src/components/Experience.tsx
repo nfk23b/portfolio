@@ -15,6 +15,7 @@ const Job = ({ job }: { job: JobData }) => (
     >
         <Typography
             variant="h4"
+            component="h3"
             sx={{ fontSize: "1.5em", lineHeight: "1.4em", color: colors.muted }}
         >
             {job.company}
@@ -22,7 +23,7 @@ const Job = ({ job }: { job: JobData }) => (
         <Typography sx={{ fontSize: "1.1em", color: colors.body }}>
             {job.role}
         </Typography>
-        <Typography sx={{ fontSize: "0.9em", color: "#888", mb: "1em" }}>
+        <Typography sx={{ fontSize: "0.9em", color: colors.body, mb: "1em" }}>
             {[job.period, job.location].filter(Boolean).join(" · ")}
         </Typography>
         {job.intro && (

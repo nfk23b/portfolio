@@ -29,6 +29,7 @@ const SectionHeading = ({
     >
         <Typography
             variant="h3"
+            component="h2"
             sx={{
                 fontSize: "2.25em",
                 lineHeight: "1.35em",

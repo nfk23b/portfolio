@@ -1,4 +1,4 @@
-import { CssBaseline, ThemeProvider } from "@mui/material";
+import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import theme from "./theme";
 import Header from "./components/Header";
 import About from "./components/About";
@@ -10,9 +10,11 @@ const App = () => (
     <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header />
-        <About />
-        <Technologies />
-        <Experience />
+        <Box component="main">
+            <About />
+            <Technologies />
+            <Experience />
+        </Box>
         <Footer />
     </ThemeProvider>
 );
