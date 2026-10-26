@@ -5,7 +5,9 @@
     },
     "header": {
         "heading": "Kirill Ivanov",
-        "text": "Senior Frontend Developer · React, TypeScript, Next.js. Fintech a dátovo náročné podnikové weby. Bratislava, Slovensko.",
+        "role": "Senior Frontend Developer",
+        "focus": "Fintech a dátovo náročné podnikové weby",
+        "location": "Bratislava, Slovensko",
         "button": "Zistiť viac"
     },
     "about": {

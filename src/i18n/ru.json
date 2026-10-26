@@ -5,7 +5,9 @@
     },
     "header": {
         "heading": "Кирилл Иванов",
-        "text": "Senior Frontend Developer · React, TypeScript, Next.js. Финтех и корпоративные веб-платформы с большим объёмом данных. Братислава, Словакия.",
+        "role": "Senior Frontend Developer",
+        "focus": "Финтех и корпоративные веб-платформы с большим объёмом данных",
+        "location": "Братислава, Словакия",
         "button": "Подробнее"
     },
     "about": {

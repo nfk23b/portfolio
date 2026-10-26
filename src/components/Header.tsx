@@ -108,13 +108,42 @@ const Header = () => {
                 </Typography>
                 <Typography
                     sx={{
-                        mt: "1em",
-                        fontSize: "1.15em",
+                        mt: "0.6em",
+                        fontSize: "1.4em",
+                        lineHeight: "1.4em",
+                        color: white,
+                    }}
+                >
+                    {t("header.role")}
+                </Typography>
+                <Typography
+                    sx={{
+                        mt: "0.4em",
+                        fontSize: "1.1em",
+                        letterSpacing: "0.05em",
+                        color: "rgba(255, 255, 255, 0.85)",
+                    }}
+                >
+                    React · TypeScript · Next.js
+                </Typography>
+                <Typography
+                    sx={{
+                        mt: "0.4em",
+                        fontSize: "1.1em",
                         lineHeight: "1.65em",
                         color: "rgba(255, 255, 255, 0.85)",
                     }}
                 >
-                    {t("header.text")}
+                    {t("header.focus")}
+                </Typography>
+                <Typography
+                    sx={{
+                        mt: "0.2em",
+                        fontSize: "1em",
+                        color: "rgba(255, 255, 255, 0.75)",
+                    }}
+                >
+                    {t("header.location")}
                 </Typography>
                 <Box
                     sx={{
