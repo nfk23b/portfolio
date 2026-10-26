@@ -1,0 +1,146 @@
+{
+    "header": {
+        "heading": "Kirill Ivanov",
+        "text": "Senior Frontend Developer · React, TypeScript, Next.js. Fintech & data visualization. Bratislava, Slovakia.",
+        "button": "Discover"
+    },
+    "about": {
+        "heading": "10 years of building the web",
+        "paragraphs": [
+            "I'm a Senior Frontend Developer currently building data-heavy interfaces for a global asset manager with React, TypeScript, Highcharts and Next.js.",
+            "I specialize in financial UIs — interactive charts, fund pages, performance dashboards — where correctness, accessibility and rendering performance matter more than visual gloss.",
+            "I'm equally comfortable in the modern React ecosystem and in legacy stacks (jQuery, Razor, Episerver/Optimizely CMS), which lets me ship features in real-world enterprise codebases rather than greenfield demos.",
+            "Open to senior frontend roles — remote within the EU or Bratislava-based. Particularly interested in fintech, data visualization, and product companies with a strong engineering culture."
+        ]
+    },
+    "technologies": {
+        "heading": "Tech stack",
+        "text": "The tools I work with day to day, from React and TypeScript to Optimizely CMS, plus the legacy stacks I've learned to modernize.",
+        "groups": {
+            "frontend": "Frontend",
+            "data": "Data & APIs",
+            "cms": "CMS & backend-adjacent",
+            "practices": "Performance"
+        }
+    },
+    "experience": {
+        "heading": "Experience",
+        "certificationsHeading": "Certifications",
+        "certifications": [
+            "React + Redux Professional Development",
+            "Claude Code in Action",
+            "What Is Generative AI?",
+            "Generative AI vs. Traditional AI",
+            "Prompt Engineering: How to Talk to the AIs"
+        ],
+        "jobs": [
+            {
+                "company": "First Line Software",
+                "role": "Frontend Engineer",
+                "period": "Dec 2021 – Present",
+                "location": "Bratislava, Slovakia",
+                "intro": "Embedded with enterprise clients to build and modernize their public-facing web platforms. Across all engagements I've worked deep in the Optimizely (formerly Episerver) CMS ecosystem, bridging modern frontend stacks with established .NET/Razor backends.",
+                "projects": [
+                    {
+                        "name": "VanEck",
+                        "url": "https://www.vaneck.com",
+                        "note": "current engagement. Global asset manager with ~$199B AUM",
+                        "bullets": [
+                            "Develop and maintain interactive financial visualizations on Highcharts — performance history, growth-of-10K, calendar returns, sector weightings, holdings breakdowns — used across hundreds of fund pages.",
+                            "Build React/TypeScript components on top of Optimizely CMS and ASP.NET Core MVC, integrating modern frontend patterns into the existing Razor-based stack.",
+                            "Optimize mobile performance (Lighthouse audits, JS bundle splitting, render-path improvements) on globally-served pages.",
+                            "Implement responsive layouts and shared UI primitives in SCSS + Bootstrap; refactor legacy jQuery where it intersects with new React features."
+                        ]
+                    },
+                    {
+                        "name": "MyEvergreenWholesale.com",
+                        "note": "B2B wholesale e-commerce platform",
+                        "bullets": [
+                            "Rebuilt the entire product catalog from the ground up on React + Optimizely, replacing the legacy implementation.",
+                            "Designed and shipped catalog UI, filtering, search and product detail flows."
+                        ]
+                    },
+                    {
+                        "name": "ConvaTec.com",
+                        "note": "global medical products company",
+                        "bullets": [
+                            "Contributed to a full website redesign built on Web Components + Optimizely, before the team's broader shift to React.",
+                            "Implemented frontend components and integrated them into the CMS-driven content model."
+                        ]
+                    }
+                ],
+                "stack": [
+                    "React",
+                    "TypeScript",
+                    "Next.js",
+                    "Highcharts",
+                    "Web Components",
+                    "SCSS",
+                    "Bootstrap",
+                    "jQuery",
+                    "Optimizely / Episerver",
+                    "ASP.NET Core MVC",
+                    "Razor"
+                ]
+            },
+            {
+                "company": "Fotosklad.ru",
+                "role": "Frontend Engineer",
+                "period": "May 2020 – Dec 2021",
+                "location": "St Petersburg, Russia",
+                "intro": "Led the frontend redesign of one of Russia's largest photo and electronics e-commerce platforms, migrating the customer-facing site from a legacy stack to a modern React/Next.js architecture.",
+                "bullets": [
+                    "Rebuilt the site end-to-end on Next.js with SSR for SEO-critical pages (catalog, product, search), replacing the previous server-rendered templates.",
+                    "Designed and implemented the data layer on Apollo Client + GraphQL, collaborating with backend on schema design and query optimization.",
+                    "Built a reusable component library covering catalog, filters, cart, checkout and account flows; enforced consistency via TypeScript and Storybook.",
+                    "Optimized Core Web Vitals on key landing and product pages — improved LCP and CLS to pass thresholds, which directly impacted organic search performance.",
+                    "Worked closely with designers and product to ship the redesign in iterative releases without freezing feature delivery."
+                ],
+                "stack": [
+                    "React",
+                    "Next.js",
+                    "TypeScript",
+                    "GraphQL (Apollo)",
+                    "SCSS",
+                    "Storybook"
+                ]
+            },
+            {
+                "company": "romb.ua",
+                "role": "Freelance Software Engineer",
+                "period": "Oct 2019 – May 2020",
+                "location": "Russia",
+                "intro": "Freelance frontend engagement with an e-commerce site specializing in agricultural machinery and equipment.",
+                "bullets": [
+                    "Implemented and maintained frontend features on top of the Magento-based storefront — catalog, product pages, search and category filtering.",
+                    "Built custom theme components and adjusted templates to match design requirements within Magento's frontend architecture.",
+                    "Worked independently on scoped tasks, coordinating directly with the client on priorities and delivery."
+                ],
+                "stack": ["JavaScript", "jQuery", "SASS", "Magento"]
+            },
+            {
+                "company": "Mygento eCommerce Solutions",
+                "role": "Frontend Developer",
+                "period": "Feb 2016 – Nov 2019",
+                "location": "",
+                "intro": "Frontend developer at a Magento-focused e-commerce agency. Delivered frontend work across 7–8 client projects over nearly 4 years, on both Magento 1 and Magento 2 codebases, including migration projects between the two.",
+                "bullets": [
+                    "Developed and maintained customer-facing storefronts for retail clients: catalog, product, cart, checkout and account flows.",
+                    "Built custom Magento themes and frontend modules on both Magento 1 and 2, adapting to each platform's templating layer (PHTML, Knockout.js for M2).",
+                    "Contributed to Magento 1 → Magento 2 migration projects, rebuilding theme layers and frontend components on the new platform.",
+                    "Integrated storefronts with payment gateways, shipping providers, analytics and marketing tools per client requirements.",
+                    "Switched contexts frequently across parallel client projects, picking up each codebase quickly and shipping features under agency timelines.",
+                    "Collaborated with backend (PHP/Magento) developers, designers and project managers in a multi-project agency environment."
+                ],
+                "stack": [
+                    "PHP (Magento templating)",
+                    "JavaScript",
+                    "jQuery",
+                    "Knockout.js",
+                    "SASS",
+                    "HTML5"
+                ]
+            }
+        ]
+    }
+}
