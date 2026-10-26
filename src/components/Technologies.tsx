@@ -2,7 +2,7 @@ import { Box, Chip, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import SectionHeading from "./SectionHeading";
 import overlay1 from "../assets/img/overlay1.png";
-import bg from "../assets/img/karthik-swarnkar-AoNvwL-Dmtw-unsplash.jpg";
+import bg from "../assets/img/tech-bg.webp";
 import {
     JsIcon,
     ReactIcon,

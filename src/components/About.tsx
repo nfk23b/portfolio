@@ -1,7 +1,9 @@
 import { Box, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import SectionHeading from "./SectionHeading";
-import img from "../assets/img/tyler-franta-iusJ25iYu1c-unsplash.jpg";
+import img480 from "../assets/img/about-480.webp";
+import img960 from "../assets/img/about-960.webp";
+import img1280 from "../assets/img/about-1280.webp";
 import { colors } from "../theme";
 
 const About = () => {
@@ -52,12 +54,17 @@ const About = () => {
                 >
                     <Box
                         component="img"
-                        src={img}
+                        src={img960}
+                        srcSet={`${img480} 480w, ${img960} 960w, ${img1280} 1280w`}
+                        sizes="(min-width: 1024px) 480px, calc(100vw - 3em)"
+                        width={1280}
+                        height={855}
                         alt=""
                         sx={{
                             display: "block",
                             borderRadius: "4px",
                             width: "100%",
+                            height: "auto",
                         }}
                     />
                 </Box>
