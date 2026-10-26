@@ -5,6 +5,15 @@ import en from "./i18n/en.json";
 import ru from "./i18n/ru.json";
 import sk from "./i18n/sk.json";
 
+// Registered before init so the initial detection also updates the document.
+i18n.on("languageChanged", () => {
+    document.documentElement.lang = i18n.resolvedLanguage;
+    document.title = i18n.t("meta.title");
+    document
+        .querySelector('meta[name="description"]')
+        ?.setAttribute("content", i18n.t("meta.description"));
+});
+
 i18n.use(LanguageDetector)
     .use(initReactI18next)
     .init({
@@ -23,9 +32,5 @@ i18n.use(LanguageDetector)
             caches: ["localStorage"],
         },
     });
-
-i18n.on("languageChanged", (lng) => {
-    document.documentElement.lang = lng;
-});
 
 export default i18n;

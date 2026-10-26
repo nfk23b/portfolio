@@ -1,4 +1,8 @@
 {
+    "meta": {
+        "title": "Kirill Ivanov — Senior Frontend Developer",
+        "description": "Kirill Ivanov — Senior Frontend Developer (React, TypeScript, Next.js). Fintech and data visualization. Bratislava, Slovakia."
+    },
     "header": {
         "heading": "Kirill Ivanov",
         "text": "Senior Frontend Developer · React, TypeScript, Next.js. Fintech & data visualization. Bratislava, Slovakia.",
