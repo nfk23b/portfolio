@@ -15,7 +15,7 @@ const contacts = [
         external: true,
     },
     {
-        href: "https://www.linkedin.com/in/kirill-ivanov-9418a2196",
+        href: "https://www.linkedin.com/in/kirillivanov-9418a2196",
         label: "LinkedIn",
         Icon: LinkedInIcon,
         external: true,
