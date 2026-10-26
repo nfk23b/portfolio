@@ -1,6 +1,6 @@
 # Portfolio
 
-Personal site of Kirill Ivanov, Senior Frontend Developer: https://nfk23b.github.io/portfolio/
+Personal site of Kirill Ivanov, Senior Frontend Developer: https://kirill-ivanov.dev/
 
 Built with Vite, React 19, MUI and i18next (EN / RU / SK).
 
