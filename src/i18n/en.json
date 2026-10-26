@@ -142,5 +142,8 @@
                 ]
             }
         ]
+    },
+    "footer": {
+        "cv": "Download CV (PDF)"
     }
 }

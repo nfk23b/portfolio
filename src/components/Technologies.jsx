@@ -9,16 +9,16 @@ import {
     ReduxIcon,
     NextJsIcon,
     GraphqlIcon,
-    MaterialuiIcon,
+    TypescriptIcon,
 } from "../utils/icons";
 
 const icons = [
     { name: "JavaScript", Icon: JsIcon, bg: "#F7DF1E", fill: "#000" },
+    { name: "TypeScript", Icon: TypescriptIcon, bg: "#3178C6", fill: "#fff" },
     { name: "React", Icon: ReactIcon, bg: "#61DAFB", fill: "#000" },
-    { name: "Redux", Icon: ReduxIcon, bg: "#764ABC", fill: "#fff" },
     { name: "Next.js", Icon: NextJsIcon, bg: "#000", fill: "#fff" },
+    { name: "Redux", Icon: ReduxIcon, bg: "#764ABC", fill: "#fff" },
     { name: "GraphQL", Icon: GraphqlIcon, bg: "#E10098", fill: "#fff" },
-    { name: "Material UI", Icon: MaterialuiIcon, bg: "#0081CB", fill: "#fff" },
 ];
 
 const groups = [
