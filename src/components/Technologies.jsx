@@ -2,7 +2,7 @@ import { Box, Chip, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import SectionHeading from "./SectionHeading";
 import overlay1 from "../assets/img/overlay1.png";
-import bg from "../assets/img/header.jpg";
+import bg from "../assets/img/ferenc-almasi-L8KQIPCODV8-unsplash.jpg";
 import {
     JsIcon,
     ReactIcon,
