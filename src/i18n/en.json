@@ -1,18 +1,18 @@
 {
     "meta": {
         "title": "Kirill Ivanov — Senior Frontend Developer",
-        "description": "Kirill Ivanov — Senior Frontend Developer (React, TypeScript, Next.js). Fintech and data visualization. Bratislava, Slovakia."
+        "description": "Kirill Ivanov — Senior Frontend Developer (React, TypeScript, Next.js). Fintech and data-heavy enterprise web. Bratislava, Slovakia."
     },
     "header": {
         "heading": "Kirill Ivanov",
-        "text": "Senior Frontend Developer · React, TypeScript, Next.js. Fintech & data visualization. Bratislava, Slovakia.",
+        "text": "Senior Frontend Developer · React, TypeScript, Next.js. Fintech and data-heavy enterprise web. Bratislava, Slovakia.",
         "button": "Discover"
     },
     "about": {
         "heading": "10 years of building the web",
         "paragraphs": [
-            "I'm a Senior Frontend Developer currently building data-heavy interfaces for a global asset manager with React, TypeScript, Highcharts and Next.js.",
-            "I specialize in financial UIs — interactive charts, fund pages, performance dashboards — where correctness, accessibility and rendering performance matter more than visual gloss.",
+            "I'm a Senior Frontend Developer with 10 years of experience. Right now I'm building the investor-facing platform and fund pages for a global asset manager — React and TypeScript on top of an enterprise CMS.",
+            "Most of my work sits where financial data meets UI: fund performance, returns and holdings rendered across hundreds of CMS-driven pages, where numbers have to be right and pages have to stay fast and accessible.",
             "I'm equally comfortable in the modern React ecosystem and in legacy stacks (jQuery, Razor, Episerver/Optimizely CMS), which lets me ship features in real-world enterprise codebases rather than greenfield demos.",
             "Open to senior frontend roles — remote within the EU or Bratislava-based. Particularly interested in fintech, data visualization, and product companies with a strong engineering culture."
         ]

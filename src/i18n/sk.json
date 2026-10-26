@@ -1,18 +1,18 @@
 {
     "meta": {
         "title": "Kirill Ivanov — Senior Frontend Developer",
-        "description": "Kirill Ivanov — Senior Frontend developer (React, TypeScript, Next.js). Fintech a vizualizácia dát. Bratislava, Slovensko."
+        "description": "Kirill Ivanov — Senior Frontend developer (React, TypeScript, Next.js). Fintech a podnikové weby. Bratislava, Slovensko."
     },
     "header": {
         "heading": "Kirill Ivanov",
-        "text": "Senior Frontend Developer · React, TypeScript, Next.js. Fintech a vizualizácia dát. Bratislava, Slovensko.",
+        "text": "Senior Frontend Developer · React, TypeScript, Next.js. Fintech a dátovo náročné podnikové weby. Bratislava, Slovensko.",
         "button": "Zistiť viac"
     },
     "about": {
         "heading": "10 rokov vo vývoji webu",
         "paragraphs": [
-            "Som Senior Frontend developer. Momentálne vytváram dátovo náročné rozhrania pre globálnu správcovskú spoločnosť v Reacte, TypeScripte, Highcharts a Next.js.",
-            "Špecializujem sa na finančné rozhrania — interaktívne grafy, stránky fondov, dashboardy výkonnosti — kde správnosť, prístupnosť a výkon vykresľovania záleží viac ako vizuálny lesk.",
+            "Som Senior Frontend developer s 10 rokmi skúseností. Momentálne vytváram platformu pre investorov a stránky fondov pre globálnu správcovskú spoločnosť — React a TypeScript nad podnikovým CMS.",
+            "Väčšina mojej práce je tam, kde sa finančné dáta stretávajú s rozhraním: výkonnosť, výnosy a portfóliá fondov na stovkách stránok z CMS, kde čísla musia sedieť a stránky musia zostať rýchle a prístupné.",
             "Rovnako dobre sa orientujem v modernom ekosystéme Reactu aj v legacy stackoch (jQuery, Razor, Episerver/Optimizely CMS), vďaka čomu dodávam funkcie v reálnych podnikových kódových základoch, nie v ukážkových projektoch od nuly.",
             "Som otvorený senior frontend pozíciám — na diaľku v rámci EÚ alebo v Bratislave. Zaujímajú ma najmä fintech, vizualizácia dát a produktové firmy so silnou inžinierskou kultúrou."
         ]
