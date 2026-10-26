@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import SectionHeading from "./SectionHeading";
-import img from "../assets/img/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg";
+import img from "../assets/img/tyler-franta-iusJ25iYu1c-unsplash.jpg";
 import { colors } from "../theme";
 
 const About = () => {
