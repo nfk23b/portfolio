@@ -1,0 +1,146 @@
+{
+    "header": {
+        "heading": "Kirill Ivanov",
+        "text": "Senior Frontend Developer · React, TypeScript, Next.js. Fintech a vizualizácia dát. Bratislava, Slovensko.",
+        "button": "Zistiť viac"
+    },
+    "about": {
+        "heading": "10 rokov vo vývoji webu",
+        "paragraphs": [
+            "Som Senior Frontend developer. Momentálne vytváram dátovo náročné rozhrania pre globálnu správcovskú spoločnosť v Reacte, TypeScripte, Highcharts a Next.js.",
+            "Špecializujem sa na finančné rozhrania — interaktívne grafy, stránky fondov, dashboardy výkonnosti — kde správnosť, prístupnosť a výkon vykresľovania záleží viac ako vizuálny lesk.",
+            "Rovnako dobre sa orientujem v modernom ekosystéme Reactu aj v legacy stackoch (jQuery, Razor, Episerver/Optimizely CMS), vďaka čomu dodávam funkcie v reálnych podnikových kódových základoch, nie v ukážkových projektoch od nuly.",
+            "Som otvorený senior frontend pozíciám — na diaľku v rámci EÚ alebo v Bratislave. Zaujímajú ma najmä fintech, vizualizácia dát a produktové firmy so silnou inžinierskou kultúrou."
+        ]
+    },
+    "technologies": {
+        "heading": "Technológie",
+        "text": "Nástroje, s ktorými pracujem každý deň — od Reactu a TypeScriptu až po Optimizely CMS — a legacy stacky, ktoré viem modernizovať.",
+        "groups": {
+            "frontend": "Frontend",
+            "data": "Dáta a API",
+            "cms": "CMS a súvisiaci backend",
+            "practices": "Výkon"
+        }
+    },
+    "experience": {
+        "heading": "Skúsenosti",
+        "certificationsHeading": "Certifikáty",
+        "certifications": [
+            "React + Redux Professional Development",
+            "Claude Code in Action",
+            "What Is Generative AI?",
+            "Generative AI vs. Traditional AI",
+            "Prompt Engineering: How to Talk to the AIs"
+        ],
+        "jobs": [
+            {
+                "company": "First Line Software",
+                "role": "Frontend Engineer",
+                "period": "dec. 2021 – súčasnosť",
+                "location": "Bratislava, Slovensko",
+                "intro": "Pracujem v tímoch podnikových klientov, kde vytváram a modernizujem ich verejné webové platformy. Vo všetkých projektoch pracujem do hĺbky s ekosystémom Optimizely (predtým Episerver) CMS a prepájam moderné frontend stacky s etablovanými backendmi na .NET/Razor.",
+                "projects": [
+                    {
+                        "name": "VanEck",
+                        "url": "https://www.vaneck.com",
+                        "note": "aktuálny projekt. Globálny správca aktív, ~199 mld. USD v správe",
+                        "bullets": [
+                            "Vyvíjam a udržiavam interaktívne finančné vizualizácie na Highcharts — história výkonnosti, growth-of-10K, výnosy podľa kalendárnych rokov, sektorové váhy, štruktúra portfólia — na stovkách stránok fondov.",
+                            "Píšem React/TypeScript komponenty nad Optimizely CMS a ASP.NET Core MVC a začleňujem moderné frontend postupy do existujúceho stacku na Razore.",
+                            "Optimalizujem výkon na mobiloch (audity Lighthouse, delenie JS bundlov, zlepšenia render path) na stránkach servírovaných po celom svete.",
+                            "Tvorím responzívne layouty a spoločné UI primitíva v SCSS + Bootstrap; refaktorujem legacy jQuery tam, kde sa stretáva s novými React funkciami."
+                        ]
+                    },
+                    {
+                        "name": "MyEvergreenWholesale.com",
+                        "note": "B2B veľkoobchodná e-commerce platforma",
+                        "bullets": [
+                            "Od základov som prebudoval celý katalóg produktov na React + Optimizely a nahradil tak pôvodnú implementáciu.",
+                            "Navrhol a dodal som UI katalógu, filtrovanie, vyhľadávanie a detail produktu."
+                        ]
+                    },
+                    {
+                        "name": "ConvaTec.com",
+                        "note": "globálna spoločnosť v oblasti zdravotníckych produktov",
+                        "bullets": [
+                            "Podieľal som sa na úplnom redizajne webu postavenom na Web Components + Optimizely, ešte pred širším prechodom tímu na React.",
+                            "Implementoval som frontend komponenty a integroval ich do obsahového modelu riadeného CMS."
+                        ]
+                    }
+                ],
+                "stack": [
+                    "React",
+                    "TypeScript",
+                    "Next.js",
+                    "Highcharts",
+                    "Web Components",
+                    "SCSS",
+                    "Bootstrap",
+                    "jQuery",
+                    "Optimizely / Episerver",
+                    "ASP.NET Core MVC",
+                    "Razor"
+                ]
+            },
+            {
+                "company": "Fotosklad.ru",
+                "role": "Frontend Engineer",
+                "period": "máj 2020 – dec. 2021",
+                "location": "Petrohrad, Rusko",
+                "intro": "Viedol som frontend redizajn jednej z najväčších ruských e-commerce platforiem s fotografickou technikou a elektronikou: preniesol som zákaznícky web z legacy stacku na modernú architektúru React/Next.js.",
+                "bullets": [
+                    "Celý web som prebudoval na Next.js s SSR pre SEO-kritické stránky (katalóg, produkt, vyhľadávanie) a nahradil tak pôvodné serverové šablóny.",
+                    "Navrhol a implementoval som dátovú vrstvu na Apollo Client + GraphQL; s backendom som spolupracoval na návrhu schémy a optimalizácii dopytov.",
+                    "Vytvoril som znovupoužiteľnú knižnicu komponentov pre katalóg, filtre, košík, objednávku a používateľský účet; konzistenciu zabezpečoval TypeScript a Storybook.",
+                    "Optimalizoval som Core Web Vitals na kľúčových vstupných stránkach a produktoch — LCP a CLS sa dostali do prahových hodnôt, čo priamo ovplyvnilo organické vyhľadávanie.",
+                    "Úzko som spolupracoval s dizajnérmi a produktom a redizajn som dodával po iteráciách bez zastavenia vývoja nových funkcií."
+                ],
+                "stack": [
+                    "React",
+                    "Next.js",
+                    "TypeScript",
+                    "GraphQL (Apollo)",
+                    "SCSS",
+                    "Storybook"
+                ]
+            },
+            {
+                "company": "romb.ua",
+                "role": "Freelance Software Engineer",
+                "period": "okt. 2019 – máj 2020",
+                "location": "Rusko",
+                "intro": "Freelance frontend projekt pre e-shop so špecializáciou na poľnohospodársku techniku a vybavenie.",
+                "bullets": [
+                    "Implementoval a udržiaval som frontend funkcie obchodu na Magente — katalóg, produktové stránky, vyhľadávanie a filtrovanie podľa kategórií.",
+                    "Vytváral som vlastné komponenty témy a upravoval šablóny podľa požiadaviek dizajnu v rámci frontend architektúry Magenta.",
+                    "Samostatne som riešil vymedzené úlohy a priamo s klientom koordinoval priority a termíny."
+                ],
+                "stack": ["JavaScript", "jQuery", "SASS", "Magento"]
+            },
+            {
+                "company": "Mygento eCommerce Solutions",
+                "role": "Frontend Developer",
+                "period": "feb. 2016 – nov. 2019",
+                "location": "",
+                "intro": "Frontend developer v agentúre zameranej na Magento. Takmer 4 roky som pracoval na 7–8 klientskych projektoch na Magento 1 aj Magento 2, vrátane migrácií medzi nimi.",
+                "bullets": [
+                    "Vyvíjal a udržiaval som zákaznícke obchody pre maloobchodných klientov: katalóg, produkt, košík, objednávka a používateľský účet.",
+                    "Vytváral som vlastné témy a frontend moduly pre Magento 1 aj 2 a prispôsoboval sa šablónovaciemu systému každej platformy (PHTML, Knockout.js v M2).",
+                    "Podieľal som sa na migráciách Magento 1 → Magento 2: prebudoval som vrstvy tém a frontend komponenty na novej platforme.",
+                    "Integroval som obchody s platobnými bránami, prepravcami, analytikou a marketingovými nástrojmi podľa požiadaviek klientov.",
+                    "Často som prepínal medzi paralelnými projektmi, rýchlo sa zorientoval v každej kódovej základni a dodával funkcie v termínoch agentúry.",
+                    "Spolupracoval som s backend vývojármi (PHP/Magento), dizajnérmi a projektovými manažérmi vo viacprojektovom agentúrnom prostredí."
+                ],
+                "stack": [
+                    "PHP (Magento templating)",
+                    "JavaScript",
+                    "jQuery",
+                    "Knockout.js",
+                    "SASS",
+                    "HTML5"
+                ]
+            }
+        ]
+    }
+}

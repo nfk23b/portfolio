@@ -17,6 +17,16 @@ const langButtonSx = (active) => ({
     },
 });
 
+const scrollToAbout = (e) => {
+    const target = document.getElementById("about");
+    if (!target) return;
+    e.preventDefault();
+    const reduce = window.matchMedia(
+        "(prefers-reduced-motion: reduce)",
+    ).matches;
+    target.scrollIntoView({ behavior: reduce ? "auto" : "smooth" });
+};
+
 const Header = () => {
     const { t, i18n } = useTranslation();
     const [loaded, setLoaded] = useState(false);
@@ -54,6 +64,7 @@ const Header = () => {
                 sx={{ position: "absolute", top: "1em", right: "1em" }}
             >
                 {[
+                    ["sk", "Sk"],
                     ["ru", "Ru"],
                     ["en", "En"],
                 ].map(([code, label]) => (
@@ -121,6 +132,7 @@ const Header = () => {
                 >
                     <Button
                         href="#about"
+                        onClick={scrollToAbout}
                         variant="outlined"
                         sx={{
                             color: white,

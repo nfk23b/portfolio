@@ -21,11 +21,6 @@ export default createTheme({
     components: {
         MuiCssBaseline: {
             styleOverrides: {
-                html: {
-                    "@media (prefers-reduced-motion: no-preference)": {
-                        scrollBehavior: "smooth",
-                    },
-                },
                 body: {
                     fontSize: "12pt",
                     "@media (min-width: 768px)": { fontSize: "13pt" },
