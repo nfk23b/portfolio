@@ -6,7 +6,10 @@ import "@fontsource/source-sans-3/700.css";
 import "./i18n";
 import App from "./App";
 
-createRoot(document.getElementById("root")).render(
+const root = document.getElementById("root");
+if (!root) throw new Error("#root element not found");
+
+createRoot(root).render(
     <StrictMode>
         <App />
     </StrictMode>,

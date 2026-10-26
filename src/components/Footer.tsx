@@ -7,7 +7,17 @@ import { useTranslation } from "react-i18next";
 import overlay2 from "../assets/img/overlay2.png";
 import overlay4 from "../assets/img/overlay4.svg";
 
-const contacts = [
+type Contact = {
+    href: string;
+    Icon: typeof GitHubIcon;
+    external?: boolean;
+    download?: boolean;
+} & (
+    | { label: string; labelKey?: never }
+    | { labelKey: "footer.cv"; label?: never }
+);
+
+const contacts: Contact[] = [
     {
         href: "https://github.com/nfk23b",
         label: "github.com/nfk23b",

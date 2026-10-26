@@ -2,8 +2,9 @@ import { Box, Chip, Link, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import SectionHeading from "./SectionHeading";
 import { colors } from "../theme";
+import type { Job as JobData } from "../types";
 
-const Job = ({ job }) => (
+const Job = ({ job }: { job: JobData }) => (
     <Box
         component="article"
         sx={{
@@ -94,7 +95,7 @@ const Job = ({ job }) => (
 
 const Experience = () => {
     const { t } = useTranslation();
-    const jobs = t("experience.jobs", { returnObjects: true });
+    const jobs: JobData[] = t("experience.jobs", { returnObjects: true });
     const certs = t("experience.certifications", { returnObjects: true });
 
     return (

@@ -1,7 +1,18 @@
+import type { ReactNode } from "react";
 import { Box, Typography } from "@mui/material";
 import { colors } from "../theme";
 
-const SectionHeading = ({ children, light = false, alignLeft = false }) => (
+interface SectionHeadingProps {
+    children: ReactNode;
+    light?: boolean;
+    alignLeft?: boolean;
+}
+
+const SectionHeading = ({
+    children,
+    light = false,
+    alignLeft = false,
+}: SectionHeadingProps) => (
     <Box
         sx={{
             textAlign: { xs: "center", lg: alignLeft ? "left" : "center" },

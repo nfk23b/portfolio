@@ -21,7 +21,10 @@ const icons = [
     { name: "GraphQL", Icon: GraphqlIcon, bg: "#E10098", fill: "#fff" },
 ];
 
-const groups = [
+const groups: {
+    key: "frontend" | "data" | "cms" | "practices";
+    items: string[];
+}[] = [
     {
         key: "frontend",
         items: [

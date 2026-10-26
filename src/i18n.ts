@@ -7,7 +7,7 @@ import sk from "./i18n/sk.json";
 
 // Registered before init so the initial detection also updates the document.
 i18n.on("languageChanged", () => {
-    document.documentElement.lang = i18n.resolvedLanguage;
+    document.documentElement.lang = i18n.resolvedLanguage ?? "en";
     document.title = i18n.t("meta.title");
     document
         .querySelector('meta[name="description"]')

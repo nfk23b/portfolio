@@ -1,7 +1,8 @@
-import { SvgIcon } from "@mui/material";
+import type { ReactElement } from "react";
+import { SvgIcon, type SvgIconProps } from "@mui/material";
 
-const wrapSvgPath = (path, viewBox = "0 0 24 24") => {
-    const Icon = (props) => (
+const wrapSvgPath = (path: ReactElement, viewBox = "0 0 24 24") => {
+    const Icon = (props: SvgIconProps) => (
         <SvgIcon {...props} viewBox={viewBox}>
             {path}
         </SvgIcon>

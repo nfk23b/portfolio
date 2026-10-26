@@ -1,12 +1,19 @@
-import { useEffect, useState } from "react";
-import { Box, Button, ButtonGroup, Typography } from "@mui/material";
+import { useEffect, useState, type MouseEvent } from "react";
+import {
+    Box,
+    Button,
+    ButtonGroup,
+    Typography,
+    type SxProps,
+    type Theme,
+} from "@mui/material";
 import { useTranslation } from "react-i18next";
 import overlay2 from "../assets/img/overlay2.png";
 import overlay3 from "../assets/img/overlay3.svg";
 
 const white = "#fff";
 
-const langButtonSx = (active) => ({
+const langButtonSx = (active: boolean): SxProps<Theme> => ({
     color: active ? "#555" : white,
     backgroundColor: active ? white : "transparent",
     borderColor: white,
@@ -17,7 +24,7 @@ const langButtonSx = (active) => ({
     },
 });
 
-const scrollToAbout = (e) => {
+const scrollToAbout = (e: MouseEvent<HTMLAnchorElement>) => {
     const target = document.getElementById("about");
     if (!target) return;
     e.preventDefault();

@@ -10,7 +10,8 @@ Built with Vite, React 19, MUI and i18next (EN / RU / SK).
 npm ci
 npm start        # dev server
 npm run lint
-npm run build    # outputs to build/
+npm run typecheck
+npm run build    # type-checks, then outputs to build/
 npm run preview  # serve the production build locally
 ```
 
